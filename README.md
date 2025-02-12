@@ -1,2 +1,3 @@
-# Personal_Website
-A personal website for Trisha Goodwin
+# Personal Website 
+## Created by Trisha Goodwin
+### Powered by Fullstack Academy
