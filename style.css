@@ -2,6 +2,12 @@ html{
     background-color: rgba(186, 220, 231, 0.961);
 }
 
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: pink;
+    }
+  }
+
 .topnav {
     list-style-type: none;
     text-align: center;
@@ -31,13 +37,17 @@ h1{
     text-align: center;
 }
 
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
+.portraits{
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    width: auto;
+}
 
+.portEffect:hover{
+    height: 400px;
+    width: auto;
+}
 .quote{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 25px;
