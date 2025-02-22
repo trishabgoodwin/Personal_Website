@@ -19,21 +19,23 @@
     </nav>
 </head>
 <body>
-    <div class="form">
-        <h2>Contact Me</h2>
+    <div>
+        <h2 id="contact">Contact Me</h2>
         <section>
             <form action="./success.html">
                 <h3>Please fill out and submit the form below with any inquiries!</h3>
+                <div>
                 <label for="firstName">First Name:</label>
                 <input type="text" name="firstName" id="firstName"/>
                 <label for="lastName">Last Name:</label>
-                <input type="text" name="lastName" id="lastName"/>
+                <input type="text" name="lastName" id="lastName"/><br><br>
+                </div>
                 <label for="phone">Phone Number</label>
-                <input type="tel" id="phone" name="cellphone"/>
+                <input type="tel" id="phone" name="cellphone"/><br>
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email">
+                <input type="email" id="email" name="email"><br>
                 <label for="message">Type Message Here:</label>
-                <textarea id="message" name="message" rows="5" cols="33">How can I help you?</textarea>
+                <textarea id="message" name="message" rows="5" cols="33">How can I help you?</textarea><br>
              <input type="submit" value="Submit"/>
             </form>
         </section>
