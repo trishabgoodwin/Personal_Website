@@ -17,6 +17,8 @@ html{
     overflow: hidden;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
+    display: flex;
+    justify-content: space-around;
 }  
 
 .topnav a{
@@ -54,11 +56,19 @@ h1{
     font-weight: bold;
     color: black;
     text-align: center;
+    margin: 100px;
+}
+
+.aboutHeading{
+    font-size: 60px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: darkblue; 
+    text-decoration: underline solid;
 }
 
 .aboutBlurb {
     font-size: 30px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: darkblue;
     text-align: center;
 }
