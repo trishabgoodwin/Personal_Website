@@ -2,7 +2,7 @@ html{
     background-color: rgba(169, 216, 234, 0.843);
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
     body {
       background-color: pink;
     }
@@ -12,7 +12,7 @@ html{
     list-style-type: none;
     text-align: center;
     width: auto;
-    margin: 0 0 50px 0;
+    margin: 0 0 30px 0;
     padding: 40px;
     overflow: hidden;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -27,7 +27,6 @@ html{
 }
 
 .topnav a.active {
-    background-color: #04AA6D;
     color: white;
     background-color: black;
     cursor: pointer;
@@ -37,6 +36,13 @@ h1{
     font-size: 88px;
     margin: 10px;
     text-align: center;
+}
+
+.description{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 25px;
 }
 
 .portraits{
@@ -66,14 +72,12 @@ h1{
 }
 
 .aboutHeading{
-    font-size: 60px;
-    color: darkblue; 
+    font-size: 50px;
     text-decoration: underline solid;
 }
 
 .aboutBlurb {
-    font-size: 30px;
-    color: darkblue;
+    font-size: 20px;
     text-align: center;
 }
 
