@@ -72,8 +72,17 @@ h1{
 }
 
 .aboutHeading{
-    font-size: 50px;
-    text-decoration: underline solid;
+    font-size: 40px;
+    text-decoration: underline 4px solid;
+}
+
+.aboutSubHead{
+    font-size: 30px;
+    text-decoration: underline 1px solid;
+}
+
+.aboutSection{
+    border-top: 3px solid black;
 }
 
 .aboutBlurb {
@@ -115,4 +124,9 @@ form{
 #contact{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: underline solid black;
+}
+
+.newpic{
+    height: 180px;
+    float: right;
 }
